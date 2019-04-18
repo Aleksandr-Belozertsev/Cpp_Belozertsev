@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ration.h">
+    <ClInclude Include="rational.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>
