@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-template <class T> 
+template <class T>
 class Tree
 {
 private:
@@ -42,7 +42,7 @@ private:
 		}
 	}
 
-	Item* Find(Item * root_subtree, const T& val) 
+	Item* Find(Item * root_subtree, const T& val)
 	{
 		if (root_subtree == 0) return 0;
 		Item * cur = root_subtree;
@@ -66,11 +66,6 @@ private:
 		delete ptr;
 	}
 
-	//void pretty_Print(Item* ptr)
-	//{
-	//	
-	//}
-
 public:
 	Tree() :root(nullptr)
 	{
@@ -83,7 +78,8 @@ public:
 		if (temp != 0) {
 			cout << "true" << endl;
 			return true;
-		} else {
+		}
+		else {
 			cout << "false" << endl;
 			return false;
 		}

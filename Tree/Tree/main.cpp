@@ -1,4 +1,4 @@
-#include "tree.cpp"
+#include "tree.h"
 
 int main(){
 	Tree <int> BTree;
