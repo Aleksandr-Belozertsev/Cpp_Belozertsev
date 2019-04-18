@@ -1,4 +1,4 @@
-#include "ration.cpp"
+#include "rational.h"
 #include <string>
 
 using namespace std;

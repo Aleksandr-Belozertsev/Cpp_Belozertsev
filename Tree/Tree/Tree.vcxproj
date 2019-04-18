@@ -78,6 +78,8 @@
   <ItemGroup>
     <ClCompile Include="tree.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Исходный код.cpp" />
+    <ClCompile Include="Исходный код1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
