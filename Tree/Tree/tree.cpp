@@ -55,7 +55,7 @@ private:
 	void Print(Item* ptr)
 	{
 		if (ptr->left)Print(ptr->left);
-		cout << ptr->value << "; ";
+		cout << ptr->value << "; " << endl;
 		if (ptr->right)Print(ptr->right);
 	}
 
@@ -82,11 +82,10 @@ public:
 		Item * temp = Find(root, val);
 		if (temp != 0) {
 			cout << "true" << endl;
-			return true
-		}
-		else {
+			return true;
+		} else {
 			cout << "false" << endl;
-			return false
+			return false;
 		}
 	}
 

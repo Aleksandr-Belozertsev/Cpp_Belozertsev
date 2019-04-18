@@ -1,11 +1,11 @@
-#include "Rational.h"
+#include "ration.cpp"
 #include <string>
 
 using namespace std;
 
 int main()
 {
-	Rational a, b;
+	Rational<int> a, b;
 
 	string c;
 
@@ -50,19 +50,19 @@ int main()
 			switch (c[0])
 			{
 			case '+':
-				cout << " Answer: " << (a + b) << endl << endl;
+				cout << "Answer: " << (a + b) << endl << endl;
 				break;
 
 			case '-':
-				cout << " Answer: " << (a - b) << endl << endl;
+				cout << "Answer: " << (a - b) << endl << endl;
 				break;
 
 			case '*':
-				cout << " Answer: " << (a * b) << endl << endl;
+				cout << "Answer: " << (a * b) << endl << endl;
 				break;
 
 			case '/':
-				cout << " Answer: " << (a / b) << endl << endl;
+				cout << "Answer: " << (a / b) << endl << endl;
 				break;
 
 			default:
