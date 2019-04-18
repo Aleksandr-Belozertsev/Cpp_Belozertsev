@@ -76,9 +76,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="tree.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="tree.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

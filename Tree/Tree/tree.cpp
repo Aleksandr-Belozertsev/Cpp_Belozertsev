@@ -1,5 +1,5 @@
-#include "tree.h"
-
+#include <iostream>
+using namespace std;
 
 template <class T> 
 class Tree
@@ -80,7 +80,14 @@ public:
 	bool Find(const T& val)
 	{
 		Item * temp = Find(root, val);
-		if (temp != 0) return true; else return false;
+		if (temp != 0) {
+			cout << "true" << endl;
+			return true
+		}
+		else {
+			cout << "false" << endl;
+			return false
+		}
 	}
 
 	void Add(T value)
