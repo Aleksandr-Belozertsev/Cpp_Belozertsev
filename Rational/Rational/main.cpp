@@ -2,10 +2,11 @@
 #include <string>
 
 using namespace std;
+typedef unsigned long long uint64;
 
 int main()
 {
-	Rational<int> a, b;
+	Rational<uint64> a, b;
 
 	string c;
 

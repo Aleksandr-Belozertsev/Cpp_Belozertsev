@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tree.h">
+    <ClInclude Include="markov.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>
