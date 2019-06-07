@@ -27,6 +27,9 @@ public:
 			denominator = -denominator;
 			numerator = -numerator;
 		}
+		if (denominator == 0) {
+			throw invalid_argument("Denominator = 0");
+		}
 	}
 
 	T Numerator() const {
