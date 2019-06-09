@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F30A9CA2-89C6-44DA-89BB-6A91CE04CE79}</ProjectGuid>
+    <ProjectGuid>{D73E96D4-DB22-4A68-BBE2-594E266CF316}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Markov</RootNamespace>
+    <RootNamespace>Time</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,10 +78,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="markov.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
