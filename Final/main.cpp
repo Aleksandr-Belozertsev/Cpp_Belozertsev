@@ -8,14 +8,14 @@ int main() {
 			stringstream ss(command_main);
 			string command;
 			ss >> command;
-			if (command == "Add") {
+			if (command == "add") {
 				string date1, event;
 				ss >> date1 >> event;
 				const Date date = ParseDate(date1);
 				db.AddEvent(date, event);
 
 			}
-			else if (command == "Del"){
+			else if (command == "del"){
 				string date2;
 				ss >> date2;
 				string event;
@@ -36,7 +36,7 @@ int main() {
 					}
 				}
 			}
-			else if (command == "Find") {
+			else if (command == "find") {
 				string date3;
 				ss >> date3;
 				const Date date = ParseDate(date3);
@@ -44,7 +44,7 @@ int main() {
 					cout << event << endl;
 				}
 			}
-			else if (command == "Print") {
+			else if (command == "print") {
 				db.Print();
 			}
 			else if (!command.empty()) {
