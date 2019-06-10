@@ -90,7 +90,7 @@ namespace DateTime {
 		}
 	}
 
-	void Time::setEuropeanFormat(bool b) { m_format = b; }
+	void Time::Switch(bool b) { m_format = b; }
 
 	bool Time::europeanFormat() { return m_format; }
 

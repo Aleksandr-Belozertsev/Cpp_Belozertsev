@@ -18,7 +18,7 @@ namespace DateTime
 		Time(int m, int h, int d, int mth, int y, bool checkException = true, bool sumValidity = false);
 		void checkArguments();
 		void checkSumValidity();
-		static void setEuropeanFormat(bool b);
+		static void Switch(bool b);
 		static bool europeanFormat();
 		TimeInterval operator-(const Time& rhs);
 		Time operator+(const TimeInterval& rhs);

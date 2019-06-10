@@ -13,12 +13,12 @@ int main()
 		Time t2(02, 34, 04, 05, 2006, false);
 		cout << t1 << endl;
 		cout << t2 << endl;
-		t1.setEuropeanFormat(false);
-		t2.setEuropeanFormat(false);
+		t1.Switch(false);
+		t2.Switch(false);
 		cout << t1 << endl;
 		cout << t2 << endl;
-		t1.setEuropeanFormat(true);
-		t2.setEuropeanFormat(true);
+		t1.Switch(true);
+		t2.Switch(true);
 		cout << t1 << endl;
 		cout << t2 << endl;
 		/*T + / -TI = T
