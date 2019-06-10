@@ -48,8 +48,8 @@ int main() {
 				db.Print();
 			}
 			else if (!command.empty()) {
-				throw logic_error("Unknown command: " + command);
-			}
+				cout << "Unknown command: " + command;
+			} 
 		}
 	}
 	catch (const exception& e) {
